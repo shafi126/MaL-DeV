@@ -1,0 +1,7 @@
+@function size($size-name) {
+  @return map-get($font-sizes, $size-name);
+}
+
+$font-sizes: (
+  "primary": 30px 
+);

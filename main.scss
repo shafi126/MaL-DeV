@@ -1,0 +1,67 @@
+@import "./scss/padding";
+@import "./scss/font-size";
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-heading {
+    @include main;
+    font-size: map-get($font-sizes, primary);
+    text-align: center;
+    color: rgb(4,170,109);
+
+    & :hover {
+        color: green;
+    }
+    span {
+        color: red;
+    };
+}
+.nav-heading {
+    background-color: rgb(40,42,53);
+    color: white;
+    letter-spacing: 2px;
+
+    & :hover {
+    border-bottom: 8px solid green;
+    }
+}
+#nav-style {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+};
+.sec-heading {
+    @include body;
+};
+.p1 {
+    font-family: 'Inter', sans-serif;
+    @include body;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+};
+.p2 {
+    font-family: 'Roboto Mono', monospace;
+    @include body;
+    font-size: 19px;
+};
+.pg-span {
+    background-color: rgb(240,240,240);
+    color: rgb(224,113,125);
+};
+.p3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 19px;
+};
+ul {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 39px;
+    font-size: 19px;
+};
+img {
+    @include body;
+    width: 700px;
+}
