@@ -1,5 +1,6 @@
 @import "./scss/padding";
 @import "./scss/font-size";
+@import "./scss/color";
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
     @include main;
     font-size: map-get($font-sizes, primary);
     text-align: center;
-    color: rgb(4,170,109);
+    color: $primary;
 
     & :hover {
         color: green;
@@ -61,7 +62,32 @@ ul {
     padding-left: 39px;
     font-size: 19px;
 };
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 img {
     @include body;
     width: 700px;
+};
+.red-arrow {
+    background-color: rgb(240,240,240);
+    color: rgb(224,113,125);
+};
+#p4 {
+    @include body;
+    font-family: 'Bebas Neue', cursive;
+    opacity: 0.5;
+    text-align: center;
+};
+.foot-heading {
+    color: $primary;
+    text-align: center;
+
+    & :hover {
+        color: green
+    }
+};
+#foot-span {
+    color: red;
 }
