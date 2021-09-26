@@ -4,90 +4,102 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.main-heading {
+// main page
+.contant-data {
+    background-color: rgb(40,42,53);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 190px; 
+};
+.meta-heading {
+    background: white;
     @include main;
     font-size: map-get($font-sizes, primary);
-    text-align: center;
     color: $primary;
+    padding-top: 0px;
 
     & :hover {
         color: green;
-    }
+    };
     span {
         color: red;
     };
-}
-.nav-heading {
+};
+.meta-data {
     background-color: rgb(40,42,53);
-    color: white;
-    letter-spacing: 2px;
-
-    & :hover {
-    border-bottom: 8px solid green;
-    }
-}
-#nav-style {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 100vh;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 };
-.sec-heading {
-    @include body;
+.img {
+    background: whitesmoke;
+    border-radius: 10px
 };
-.p1 {
+#ex {
+    color: black;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 40px;
     font-family: 'Inter', sans-serif;
-    @include body;
-    font-size: 25px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    border-top: 2px solid #f3f3f3;
-    border-bottom: 2px solid #f3f3f3;
 };
-.p2 {
-    font-family: 'Roboto Mono', monospace;
-    @include body;
-    font-size: 19px;
+.words {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 };
-.pg-span {
-    background-color: rgb(240,240,240);
-    color: rgb(224,113,125);
-};
-.p3 {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 19px;
-};
-ul {
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 39px;
-    font-size: 19px;
-};
-li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.img1 {
+    padding-right: 20px;
 }
+a {
+    text-decoration: none;
+};
+#lea {
+    color: white;
+};
+#tut {
+    color: black;
+};
+.learn {
+    background: $primary;
+    margin-top: 30px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+};
+.learn1:hover {
+        background: rgb(4,130,80);
+};
+.learn2:hover {
+    background: rgb(250, 234, 116);
+};
+.video {
+    background: $secondary;
+    color: black;
+    margin-top: 30px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+};
+#heading {
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+};
+.p0 {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 10px;
+};
 img {
     @include body;
-    width: 700px;
+    width: 500px;
 };
-.red-arrow {
-    background-color: rgb(240,240,240);
-    color: rgb(224,113,125);
-};
-#p4 {
-    @include body;
-    font-family: 'Bebas Neue', cursive;
-    opacity: 0.5;
-    text-align: center;
-};
-.foot-heading {
-    color: $primary;
-    text-align: center;
-
-    & :hover {
-        color: green
-    }
-};
-#foot-span {
-    color: red;
-}
