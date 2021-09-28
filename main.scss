@@ -110,4 +110,33 @@ img {
 .temp {
     color:black;
     text-align: right;
+};
+@media  screen and (max-width: 951px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    };
+    .contant-data {
+    background-color: rgb(40,42,53);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px; 
+};
+.contant-data {
+    max-width: 80%;
+}
+.meta-heading {
+    position: static;
+}
+.words {
+    padding-bottom: 10px;
+};
+.temp-meta {
+    display: none;
+};
+.img1 {
+    width: 500px;
+};
 }
