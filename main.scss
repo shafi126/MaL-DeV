@@ -1,11 +1,12 @@
 @import "./scss/padding";
 @import "./scss/font-size";
 @import "./scss/color";
+@import "./scss/page1";
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+};
 // main page
 .contant-data {
     background-color: rgb(40,42,53);
@@ -16,14 +17,16 @@
     text-align: center;
     padding-left: auto;
     padding-right: auto;
-    padding-top: 190px; 
+    padding-top: 290px; 
 };
 .meta-heading {
     background: white;
     @include main;
     font-size: map-get($font-sizes, primary);
     color: $primary;
-    padding-top: 0px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
 
     & :hover {
         color: green;
@@ -98,8 +101,13 @@ a {
 .p0 {
     font-family: 'Roboto Mono', monospace;
     padding-top: 10px;
+    color: white;
 };
 img {
     @include body;
     width: 500px;
 };
+.temp {
+    color:black;
+    text-align: right;
+}
