@@ -15,8 +15,8 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-top: 290px; 
 };
 .meta-heading {
@@ -115,28 +115,75 @@ img {
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     };
+    .meta-data {
+        width: 100%;
+    }
     .contant-data {
+    width: inherit;
     background-color: rgb(40,42,53);
     color: white;
     display: flex;
     flex-direction: column;
-    padding-top: 50px; 
+    padding-top: 30px; 
+    padding-left: 0px;
+    padding-right: 0px;
 };
-.contant-data {
-    max-width: 80%;
-}
 .meta-heading {
     position: static;
+    font-size: 20px;
+};
+#heading {
+    font-size: 50px;
+};
+.sections {
+    margin: 0px;
 }
+.p0 {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+};
+.learn {
+    width: 220px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+};
+#lea {
+    font-size: 15px;
+};
+#tut {
+    font-size: 15px;
+};
+.video {
+    width: 220px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+};
 .words {
     padding-bottom: 10px;
 };
+.img {
+    margin-top: 20px;
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+};
+#ex {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .temp-meta {
     display: none;
 };
 .img1 {
-    width: 500px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
 };
+.footer {
+    display: none;
+}
 }
