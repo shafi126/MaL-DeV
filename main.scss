@@ -17,7 +17,8 @@
     text-align: center;
     padding-left: 18.75rem;
     padding-right: 18.75rem;
-    padding-top: 18.125rem; 
+    padding-top: 10.125rem; 
+    height: 100vh;
 };
 .meta-heading {
     background: white;
@@ -37,7 +38,6 @@
 };
 .meta-data {
     background-color: rgb(40,42,53);
-    height: 100vh;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -108,14 +108,24 @@ img {
     @include body;
     width: 31.25rem;
 };
-.temp {
-    color:black;
-    text-align: right;
+.footer {
+    text-align: center;
+    padding-top: 1.75rem;
+    position: inherit;
 };
+.foo1 {
+    color: grey;
+    font-size: 0.95rem;
+};
+.fooo2 {
+    padding-top: 3.25rem;
+    padding-bottom: 1.25rem;
+}
 @media  screen and (max-width: 951px){
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     };
     .meta-data {
         width: 100%;
@@ -129,6 +139,7 @@ img {
     padding-top: 1.875rem; 
     padding-left: 0px;
     padding-right: 0px;
+    height: 100%;
 };
 .meta-heading {
     position: static;
@@ -177,15 +188,20 @@ img {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
 };
-.temp-meta {
-    display: none;
-};
 .img1 {
     width: 18.75rem;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
 };
 .footer {
-    display: none;
+    height: 100%;
+    padding-top: 0.7rem;
+};
+.foo2 {
+    padding-left: 0px;
+}
+.foo1 {
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
 };
 }
