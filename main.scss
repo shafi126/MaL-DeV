@@ -15,16 +15,16 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 290px; 
+    padding-left: 18.75rem;
+    padding-right: 18.75rem;
+    padding-top: 18.125rem; 
 };
 .meta-heading {
     background: white;
     @include main;
     font-size: map-get($font-sizes, primary);
     color: $primary;
-    padding-top: 10px;
+    padding-top: 0.625rem;
     position: fixed;
     width: 100%;
 
@@ -50,8 +50,8 @@
     color: black;
     padding-top: 50px;
     text-align: left;
-    padding-left: 20px;
-    font-size: 40px;
+    padding-left: 1.25rem;
+    font-size: 2.5rem;
     font-family: 'Inter', sans-serif;
 };
 .words {
@@ -60,8 +60,8 @@
     justify-content: center;
 };
 .img1 {
-    padding-right: 20px;
-}
+    padding-right: 1.25rem;
+};
 a {
     text-decoration: none;
 };
@@ -73,11 +73,11 @@ a {
 };
 .learn {
     background: $primary;
-    margin-top: 30px;
-    width: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 25px;
+    margin-top: 1.875rem;
+    width: 12.5rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    border-radius: 1.5625rem;
 };
 .learn1:hover {
         background: rgb(4,130,80);
@@ -88,11 +88,11 @@ a {
 .video {
     background: $secondary;
     color: black;
-    margin-top: 30px;
-    width: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 25px;
+    margin-top: 1.875rem;
+    width: 12.5rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    border-radius: 1.5625rem;
 };
 #heading {
     font-size: 100px;
@@ -100,12 +100,13 @@ a {
 };
 .p0 {
     font-family: 'Roboto Mono', monospace;
-    padding-top: 10px;
+    padding-top: 0.625rem;
+    padding-left: 0px;
     color: white;
 };
 img {
     @include body;
-    width: 500px;
+    width: 31.25rem;
 };
 .temp {
     color:black;
@@ -118,73 +119,73 @@ img {
     };
     .meta-data {
         width: 100%;
-    }
+    };
     .contant-data {
     width: inherit;
     background-color: rgb(40,42,53);
     color: white;
     display: flex;
     flex-direction: column;
-    padding-top: 30px; 
+    padding-top: 1.875rem; 
     padding-left: 0px;
     padding-right: 0px;
 };
 .meta-heading {
     position: static;
-    font-size: 20px;
+    font-size: 1.25rem;
 };
 #heading {
-    font-size: 50px;
+    font-size: 3.125rem;
 };
 .sections {
     margin: 0px;
-}
+};
 .p0 {
-    font-size: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 0.625rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 };
 .learn {
-    width: 220px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 13.75rem;
+    margin-top: 1.25rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 };
 #lea {
-    font-size: 15px;
+    font-size: 0.9375;
 };
 #tut {
-    font-size: 15px;
+    font-size: 0.9375;
 };
 .video {
-    width: 220px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 13.75rem;
+    margin-top: 1.25rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 };
 .words {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 };
 .img {
-    margin-top: 20px;
-    width: 320px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 20px
+    margin-top: 1.25rem;
+    width: 20rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    margin-bottom: 1.25rem;
 };
 #ex {
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+};
 .temp-meta {
     display: none;
 };
 .img1 {
-    width: 300px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 18.75rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 };
 .footer {
     display: none;
-}
+};
 }
