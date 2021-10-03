@@ -91,6 +91,13 @@ li {
   padding: 4px;
   z-index: 99;
 };
+#nav-download {
+  width: 20px;
+  padding: 0px;
+};
+.download {
+  color: rgb(126, 29, 88);
+}
 @media  screen and (max-width: 951px) {
   * {
     padding: 0;
