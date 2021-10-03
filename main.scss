@@ -12,11 +12,11 @@
     background-color: rgb(40,42,53);
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding-left: 18.75rem;
-    padding-right: 18.75rem;
+    margin-left: 6rem;
+    margin-right: 7rem;
     padding-top: 10.125rem; 
     height: 100vh;
 };
@@ -54,6 +54,9 @@
     font-size: 2.5rem;
     font-family: 'Inter', sans-serif;
 };
+.exa {
+    margin-left: 1rem;
+}
 .words {
     text-align: center;
     align-items: center;
@@ -137,8 +140,8 @@ img {
     display: flex;
     flex-direction: column;
     padding-top: 1.875rem; 
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     height: 100%;
 };
 .meta-heading {
@@ -188,6 +191,9 @@ img {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
 };
+.exa {
+    margin-left: 0px;
+}
 .img1 {
     width: 18.75rem;
     padding-left: 0.625rem;
@@ -198,10 +204,13 @@ img {
     padding-top: 0.7rem;
 };
 .foo2 {
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .foo1 {
+    padding-left: 0px;
     padding-top: 0.6rem;
     padding-bottom: 1rem;
+    font-size: 0.545rem;
 };
 }
