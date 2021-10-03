@@ -1,0 +1,46 @@
+.main-heading {
+    text-align: center;
+    background: white;
+    @include main;
+    font-size: map-get($font-sizes, primary);
+    color: $primary;
+    padding-top: 0px;
+
+    & :hover {
+        color: green;
+    };
+    span {
+        color: red;
+    };
+};
+.main-heading{
+    @include main;
+}
+h1, h2 {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 30px;
+};
+.h-heading {
+    font-size: 50px;
+    border-top: 1px solid rgb(207, 202, 202);
+    border-bottom: 1px solid rgb(207, 202, 202);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p {
+    color: black;
+    font-size: 19px;
+    padding-left: 30px;
+    line-height: 25px;
+};
+li {
+    color: black;
+    font-size: 19px;
+    padding-left: 30px;
+    line-height: 30px;
+};
+.span-cl {
+    background: rgb(207, 202, 202);
+    color: rgb(219, 94, 112);
+};
