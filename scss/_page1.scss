@@ -98,6 +98,20 @@ li {
 .download {
   color: rgb(126, 29, 88);
 };
+.forum {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  background: black;
+  color: white;
+
+  &:hover {
+  border-bottom: 10px solid rgb(207, 202, 202);
+  };
+};
+.forum-para {
+    font-size: 13px;
+}
 @media  screen and (max-width: 951px) {
   * {
     padding: 0;
