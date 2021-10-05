@@ -34,6 +34,14 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
 };
+.h1-res {
+  font-size: 30px;
+  text-decoration: underline;
+  padding-left: 20px;
+  font-family: "Inter", sans-serif;
+  color: red;
+  padding-top: 20px;
+};
 .page-para-data {
   color: black;
   font-size: 19px;
@@ -42,15 +50,15 @@ h1 {
   line-height: 35px;
 };
 .para-data-top {
-  padding-top: 50px;
+  padding-top: 30px;
 };
 .para-data-bottom {
-  padding-bottom: 50px;
-}
+  padding-bottom: 25px;
+};
 li {
   color: black;
   font-size: 19px;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Inter", sans-serif;
   padding-left: 30px;
   padding-bottom: 20px;
   line-height: 30px;
@@ -96,11 +104,11 @@ li {
   padding: 0px;
 };
 .download {
-  color: rgb(190, 32, 53);
+  color: rgb(224, 15, 43);
 };
 .ref {
-  color: rgb(190, 32, 53);
-}
+  color: green;
+};
 .forum {
   font-size: 20px;
   text-align: center;
@@ -117,7 +125,20 @@ li {
 };
 .style {
   color: rgb(62, 62, 131);
-}
+};
+.li-ex {
+  background: rgb(207, 202, 202);
+  color: blue;
+  list-style: none;
+};
+.ul-ex {
+  border: 10px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+};
 @media  screen and (max-width: 951px) {
   * {
     padding: 0;
@@ -158,3 +179,8 @@ li {
     width: 40px;
   };
 };
+@media  screen and (min-width: 920px) {
+  .ul-ex {
+    width: 500px;
+  }
+}
