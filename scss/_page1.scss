@@ -96,8 +96,11 @@ li {
   padding: 0px;
 };
 .download {
-  color: rgb(126, 29, 88);
+  color: rgb(190, 32, 53);
 };
+.ref {
+  color: rgb(190, 32, 53);
+}
 .forum {
   font-size: 20px;
   text-align: center;
@@ -111,6 +114,9 @@ li {
 };
 .forum-para {
     font-size: 13px;
+};
+.style {
+  color: rgb(62, 62, 131);
 }
 @media  screen and (max-width: 951px) {
   * {
@@ -141,10 +147,14 @@ li {
     font-size: 15px;
     font-weight: 500;
   };
+  .bottom-nav {
+    display: flex;
+    flex-direction: column;
+  };
   #nav-icon {
-    width: 50px;
+    width: 40px;
   };
   #nav-home {
-    width: 50px;
+    width: 40px;
   };
 };
