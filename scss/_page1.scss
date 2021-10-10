@@ -128,7 +128,7 @@ li {
 };
 .li-ex {
   background: rgb(207, 202, 202);
-  color: blue;
+  color: yellow;
   list-style: none;
 };
 .ul-ex {
@@ -139,6 +139,11 @@ li {
   margin-top: 60px;
   margin-bottom: 60px;
 };
+.page-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media  screen and (max-width: 951px) {
   * {
     padding: 0;
@@ -178,9 +183,23 @@ li {
   #nav-home {
     width: 40px;
   };
+  .page-images {
+  display: flex;
+  flex-direction: column;
+  };
+  // page image size
+  .pgm {
+  width: 300px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  .pgm {
+    height: 450px;
+  }
 };
 @media  screen and (min-width: 920px) {
   .ul-ex {
     width: 500px;
-  }
+  };
 }
