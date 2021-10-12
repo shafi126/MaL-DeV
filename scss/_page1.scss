@@ -1,6 +1,6 @@
 .main-heading {
   text-align: center;
-  background: white;
+  background: rgb(207, 202, 202);
   @include main;
   font-size: map-get($font-sizes, primary);
   color: $primary;
@@ -13,6 +13,7 @@
   };
 };
 .h-heading {
+  margin-top: 50px;
   font-size: 60px;
   font-family: "Inter", sans-serif;
   padding-left: 30px;
@@ -102,12 +103,18 @@ li {
 .download {
   color: rgb(224, 15, 43);
 };
+.ref:visited {
+  color: purple;
+
+  &:hover {
+    color: darkgreen;
+  }
+}
 .ref {
   color: green;
-
-  &:visited {
-    color: blue
-  };
+};
+.ref:active {
+  color: red;
 };
 .forum {
   font-size: 20px;
@@ -115,6 +122,7 @@ li {
   font-family: "Roboto Mono", monospace;
   background: black;
   color: white;
+  border-bottom: solid;
 
   &:hover {
   border-bottom: 10px solid rgb(207, 202, 202);
@@ -149,6 +157,10 @@ li {
   width: 400px;
   height: 500px;
 };
+.link-to-other-pages {
+  display: flex;
+  flex-direction: column;
+}
 @media  screen and (max-width: 951px) {
   * {
     padding: 0;
@@ -198,9 +210,12 @@ li {
   padding: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  }
+  };
   .pgm {
     height: 450px;
+  };
+  .ul-ex {
+    margin-bottom: 5px;
   }
 };
 @media  screen and (min-width: 920px) {
