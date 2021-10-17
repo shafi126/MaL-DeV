@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaL-DeV.com/HTML Links</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <div class="main-heading">
+        <h1>MaL-DeV<span id="head-span">.com</span></h1>
+    </div>
+    <h2 id="nav-id" class="h-heading">HTML Links</h2>
+        <p class="page-para-data para-data-top">
+            HTML Links - Hyperlinks <br>
+            HTML links are hyperlinks. <br>
+            You can click on a link and jump to another document. <br>
+            When you move the mouse over a link, the mouse arrow will turn into a little hand.
+        </p>
+        <h2 class="h-heading">HTML Links - Syntax</h2>
+        <p class="page-para-data para-data-top">
+            The HTML <span><</span>a<span class="span-cl">></span>tag defines a hyperlink. It has the following syntax:</p>
+                <div class="link-cl-div">
+                    <p class="page-para-data link-cl">
+                        <span class="span-cl"><</span>a href="url"<span class="span-cl">></span>
+                        <span class="span-cl"><</span>/a<span class="span-cl">></span>
+                    </p>
+                </div>
+<p class="page-para-data">
+            The most important attribute of the <span><</span>a<span class="span-cl">></span> element is the href attribute, which indicates the link's destination. <br>
+            The link text is the part that will be visible to the reader. <br>
+            Clicking on the link text, will send the reader to the specified URL address. <br>
+</p>
+        <h2 class="h-heading">Example</h2>
+        <p class="page-para-data para-data-top">
+            This example shows how to create a link to W3Schools.com:
+        </p>
+        <p class="page-para-data link-cl">
+            <span class="span-cl"><</span>a href="https://mal-dev.pages.dev/"<span class="span-cl">></span>Visit W3Schools.com! <span class="span-cl"><</span>/a<span class="span-cl">></span>
+        </p>
+        <p class="page-para-data">
+            By default, links will appear as follows in all browsers:
+        </p>
+<p class="page-para-data">
+        <p class="page-para-data link-data1">An unvisited link is underlined and blue</p>
+        <p class="page-para-data link-data2">A visited link is underlined and purple</p>
+        <p class="page-para-data link-data3">An active link is underlined and red</p>
+</p>
+<h2 class="h-heading">HTML Links - The target Attribute</h2>
+<p class="page-para-data para-data-top">
+        By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link. <br>
+        The target attribute specifies where to open the linked document. <br>
+        The target attribute can have one of the following values:</p>
+        <ul>
+            <li class="para-data-top li-ex1"> <span class="target"> _self </span> - Default. Opens the document in the same window/tab as it was clicked</li>
+            <li class="li-ex1"> <span class="target"> _blank </span> - Opens the document in a new window or tab</li>
+            <li class="li-ex1"> <span class="target"> _parent </span> - Opens the document in the parent frame</li>
+            <li class="li-ex1"> <span class="target"> _top </span> - Opens the document in the full body of the window</li>
+        </ul>
+        <h2 class="h-heading">Example</h2>
+        <p class="page-para-data para-data-top">
+            Use target="_blank" to open the linked document in a new browser window or tab: <br>
+        </p>
+        <p class="page-para-data link-cl">
+            <span class="span-cl"><</span>a href="https://mal-dev.pages.dev" target="_blank"<span class="span-cl">></span>Visit MaL-DeV!<span class="span-cl"><</span>/a<span class="span-cl">></span>
+        </p>
+        <h2 class="h-heading">Absolute URLs vs Relative URLs</h2>
+        <p class="page-para-data para-data-top">
+            Both examples above are using an absolute URL (a full web address) in the href attribute. <br>
+            A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):
+        </p>
+        <h2 class="h-heading">Example</h2>
+        <h4 class="h4-heading">Absolute URLs</h4>
+        <p class="page-para-data para-data-top link-cl">
+             <span class="span-cl"><</span>a href="https://mal-dev.pages.dev/"<span class="span-cl">></span>mal-dev<span class="span-cl"><</span>/a<span class="span-cl">></span><br>
+            <span class="span-cl"><</span>a href="https://www.google.com/"<span class="span-cl">></span>Google<span class="span-cl"><</span>/a<span class="span-cl">></span>
+        </p>
+        <h4 class="h4-heading">Relative URLs</h4>
+        <p class="page-para-data para-data-top link-cl">
+             <span class="span-cl"><</span>a href="html_images.asp"<span class="span-cl">></span>HTML Images<span class="span-cl"><</span>/a<span class="span-cl">></span> <br>
+             <span class="span-cl"><</span>a href="/css/default.asp"<span class="span-cl">></span>CSS Tutorial<span class="span-cl"><</span>/a<span class="span-cl">></span>
+        </p>
+        <h2 class="h-heading">HTML Links - Use an Image as a Link</h2>
+        <p class="page-para-data para-data-top">
+            To use an image as a link, just put the <span class="span-cl"><</span>img<span class="span-cl">></span> tag inside the <span class="span-cl"><</span>a<span class="span-cl">></span> tag:
+        </p>
+        <h2 class="h-heading">Example</h2>
+            <p class="page-para-data para-data-top link-cl link-cl1">
+                 <span class="span-cl"><</span>a href="smiley.com"<span class="span-cl">></span> <br>
+                 <span class="span-cl"><</span>img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"<span class="span-cl">></span> <br> 
+                 <span class="span-cl"><</span>/a<span class="span-cl">></span>
+            </p>
+        <h2 class="h-heading">Link to an Email Address</h2>
+        <p class="page-para-data para-data-top"> 
+            Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
+        </p>
+        <h2 class="h-heading">Example</h2>
+        <p class="page-para-data para-data-top link-cl link-cl1">
+            <span class="span-cl"><</span>a href="mailto:someone@example.com"<span class="span-cl">></span>Send email<span class="span-cl"><</span>/a<span class="span-cl">></span>
+        </p>
+        <h2 class="h-heading">Chapter Summary</h2>
+        <p class="page-para-data para-data-top">
+            Use the <span class="span-cl"><</span>a<span class="span-cl">></span> element to define a link <br>
+            Use the href attribute to define the link address <br>
+            Use the target attribute to define where to open the linked document <br>
+            Use the <span class="span-cl"><</span>img<span class="span-cl">></span> element (inside <span class="span-cl"><</span>a<span class="span-cl">></span>) to use an image as a link <br>
+            Use the <span class="span-cl">mailto</span>: scheme inside the href attribute to create a link that opens the user's email program <br>
+            <span class="span-cl"><</span>a<span class="span-cl">></span>	Defines a hyperlink <br>
+        </p>
+    <div class="bottom-nav">
+        <a href="./html.html"><img id="nav-home" src="./SVG/backward-arrow.svg" title="back" alt=""></a>
+        <a href="#nav-id"><img id="nav-icon" src="./SVG/upward-arrow.svg" title="Go Up" alt=""></a>
+        <a href="./index.html"><img id="nav-home" src="./SVG/home-icon.svg" title="HOME" alt=""></a>
+    </div>
+</body>
+</html>
