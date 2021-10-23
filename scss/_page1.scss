@@ -1,6 +1,6 @@
 .main-heading {
   text-align: center;
-  background: rgb(49, 28, 93);
+  background: #1d2671;
   @include main;
   font-size: map-get($font-sizes, primary);
   color: $primary;
@@ -20,13 +20,13 @@
 }
 h1 {
   font-family: "Inter", sans-serif;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   height: 100%;
   font-size: 60px;
 };
 .h-heading {
-  color: black;
+  color: #fbb03b;
 };
 .h-heading {
   border-top: 1px solid rgb(207, 202, 202);
@@ -100,7 +100,7 @@ li {
   padding: 0px;
 };
 .download {
-  color: rgb(224, 15, 43);
+  color: #dd2476;
 };
 .ref:visited {
   color: purple;
@@ -119,7 +119,7 @@ li {
   font-size: 20px;
   text-align: center;
   font-family: "Roboto Mono", monospace;
-  background: black;
+  background: #1d2671;
   color: white;
   border-bottom: solid;
 
